@@ -3,7 +3,7 @@ def reverse_each_word(string)
   rev_array = []
   rev_array.each do|word|
     a = word.reverse 
-    array.push(a)
+    rev_array.push(a)
   end
   return array
 end
